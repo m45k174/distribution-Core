@@ -1,0 +1,20 @@
+//For menu
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+//For menu and body
+  .affix + .container{
+      padding-top: 70px;
+  }
+//For Navbar
+	.container{
+		color: rgba(0, 0, 0, 0) ;
+		background: linear-gradient(to right, rgb(146, 250, 148), rgb(247, 136, 136)) repeat scroll 0% 0% ;
+	}
+//For footer
+   .footer{
+	   padding-top: .3px;
+	   padding-bottom: .0px;
+   }
